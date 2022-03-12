@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    margin-top: 90px;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    color: white;
+    margin-top: 20px;
+}
+
+#turnOn{
+    background-color: green;
+}
+
+#turnOff{
+    background-color: red;
+}
